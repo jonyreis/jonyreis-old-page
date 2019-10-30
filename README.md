@@ -28,3 +28,9 @@
 
 
 ![index.html-gif](https://user-images.githubusercontent.com/35041924/67628441-1bd63b00-f844-11e9-8b95-fbac4681e3e4.gif)
+
+### Dia 29/10/2019
+
+* Aprendi como publicar no GitHub Pages.
+* Adicionei recuo nos parágrafos.
+* Só falta deixar o site responsivo.
