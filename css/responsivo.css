@@ -1,18 +1,44 @@
 /* ==== Media Queries ==== */
 
+/* ==== Max Width 960px ==== */
+
+@media (max-width: 959px) {
+    .artigo {
+        margin: 60px 10px;
+    }
+
+}
+
+/* ==== Max Width 790px ==== */
 
 
+@media (max-width: 790px) {
+
+    p {
+        font-size: 16px;
+    }
+
+    .item-flex p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .skill {
+        padding: 0px 20px;
+    }
+
+    .artigo-page {
+        margin: 120px 10px;
+    }
+
+}
 
 
-/* ==== Smartphone ==== */
-@media (max-width: 300px) {
+/* ==== Max Width 570px ==== */
 
+@media (max-width: 570px) {
 
     /* ==== Index ==== */
-    .menu-container {
-        display: flex;
-        flex-direction: column;        
-    }
 
     .menu-nav a {
         font-size: 12px;
@@ -25,10 +51,6 @@
 
 	.intro p {
 		font-size: 12px;
-    }
-
-    .artigo {
-        margin: 40px 10px;
     }
     
     .artigo h2 {
@@ -54,7 +76,7 @@
     /* ==== Sobre ==== */
 
     #sobre {
-        padding: 0px;
+        padding: 30px 0 0 0;
     }
 
     .item-flex p {
@@ -62,12 +84,8 @@
         margin-top: 20px;
     }
 
-    .skill {
-        padding: 0px 10px;
-    }
-
     .skill-container {
-        padding-top: 10px;
+        padding-top: 20px;
     }
 
     .item-skill {
@@ -81,14 +99,17 @@
     /* ==== Artigo ==== */
 
     #titulo-post {
-        font-size: 23px;
-    }
-
-    .artigo-page {
-        margin: 120px 10px 40px 10px;
+        font-size: 32px;
     }
 
     .artigo-page p {
         font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    .menu-container {
+        display: flex;
+        flex-direction: column;        
     }
 }
