@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    <!-- ========== Head ========== -->
 <head>
+    <!-- ========== MetaTags ========== -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jony Reis - Desenvolvedor Web em Florianópolis</title>
+
+    <!-- ========== Link ========== -->
+
     <link rel="icon" type="imagem/png" href="assets/icon.png"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsivo.css">
 </head>
 <body>
+
+    <!-- ========== Menu de Navegação ========== -->
 
     <header class="menu">
         <div class="menu-container">
@@ -19,97 +27,68 @@
             <nav class="menu-nav">
                 <ul>
                     <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="#buscar">Artigos</a></li>
+                    <li><a href="#artigos">Artigos</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+
+    <!-- ========== Intro ========== -->
+
     <main class="intro">
             <h1>Desenvolvedor Web</h1>
             <p>“escrevo sobre a minha experiência e dicas com desenvolvimento web”</p>
             <div class="seta">
-                <a href="#buscar"><img src="assets/seta.svg" alt="Seta indicando para baixo"></a>
+                <a href="#artigos"><img src="assets/seta.svg" alt="Seta indicando para baixo"></a>
             </div>
     </main>
 
-    <section class="artigos">
+    <!-- ========== Artigos ========== -->
 
-        <form id="buscar" class="form">
-            <input type="text" name="Buscar" placeholder="Pesquisar...">
-            <button type="button"><img src="/assets/pesquisar.svg"></button>
-        </form>
-
+    <section id="artigos">
 
         <article>
             <div class="artigo">
-                <h2>Lorem Ipson</h2>
-                <p class="recuo">Existem muitas variações das passagens do Lorem Ipsum disponíveis,
-                mas a maior parte sofreu alterações de alguma forma, pela injecção de 
-                humor, ou de palavras aleatórias que nem sequer parecem suficientemente 
-                credíveis. Se vai usar uma passagem do Lorem Ipsum, deve ter a certeza 
-                que não contém nada de embaraçoso escondido no meio do texto. Todos os 
-                geradores de Lorem Ipsumor repetir porções de texto 
-                pré-definido, como necessário, fazendo com que este seja o primeiro verdadeiro
-                gerador na Internet. Usa um dicionário de 200 palavras em Latim, combinado com 
-                uma dúzia de modelos de frases, para gerar Lorem Ipsum que pareçam razoáveis. 
-                Desta forma, o Lorem Ipsum gerado é sempre livre de repetição...
-                <a href="#" class="btn-continue">Continue lendo<img src="/assets/seta-direita.svg" class="seta-direita" alt="Seta sentido direita"></a></p>
-
-            </div>
-            <div class="artigo">
-                <h2>Lorem Ipson</h2>
-                <p class="recuo">Existem muitas variações das passagens do Lorem Ipsum disponíveis,
-                mas a maior parte sofreu alterações de alguma forma, pela injecção de 
-                humor, ou de palavras aleatórias que nem sequer parecem suficientemente 
-                credíveis. Se vai usar uma passagem do Lorem Ipsum, deve ter a certeza 
-                que não contém nada de embaraçoso escondido no meio do texto. Todos os 
-                geradores de Lorem Ipsumor repetir porções de texto 
-                pré-definido, como necessário, fazendo com que este seja o primeiro verdadeiro
-                gerador na Internet. Usa um dicionário de 200 palavras em Latim, combinado com 
-                uma dúzia de modelos de frases, para gerar Lorem Ipsum que pareçam razoáveis. 
-                Desta forma, o Lorem Ipsum gerado é sempre livre de repetição...
-                <a href="#" class="btn-continue">Continue lendo<img src="/assets/seta-direita.svg" class="seta-direita" alt="Seta sentido direita"></a></p>
-
-            </div>
-            <div class="artigo">
-                <h2>Como se tornar um desenvolvedor JavaScript de sucesso?</h2>
-                <p class="recuo">Existem muitas variações das passagens do Lorem Ipsum disponíveis,
-                mas a maior parte sofreu alterações de alguma forma, pela injecção de 
-                humor, ou de palavras aleatórias que nem sequer parecem suficientemente 
-                credíveis. Se vai usar uma passagem do Lorem Ipsum, deve ter a certeza 
-                que não contém nada de embaraçoso escondido no meio do texto. Todos os 
-                geradores de Lorem Ipsumor repetir porções de texto 
-                pré-definido, como necessário, fazendo com que este seja o primeiro verdadeiro
-                gerador na Internet. Usa um dicionário de 200 palavras em Latim, combinado com 
-                uma dúzia de modelos de frases, para gerar Lorem Ipsum que pareçam razoáveis. 
-                Desta forma, o Lorem Ipsum gerado é sempre livre de repetição...
-                <a href="#" class="btn-continue">Continue lendo<img src="/assets/seta-direita.svg" class="seta-direita" alt="Seta sentido direita"></a></p>
-
-            </div>
-            <div class="artigo">
-                <h2>Como se tornar um desenvolvedor JavaScript de sucesso?</h2>
-                <p class="recuo">Existem muitas variações das passagens do Lorem Ipsum disponíveis,
-                mas a maior parte sofreu alterações de alguma forma, pela injecção de 
-                humor, ou de palavras aleatórias que nem sequer parecem suficientemente 
-                credíveis. Se vai usar uma passagem do Lorem Ipsum, deve ter a certeza 
-                que não contém nada de embaraçoso escondido no meio do texto. Todos os 
-                geradores de Lorem Ipsumor repetir porções de texto 
-                pré-definido, como necessário, fazendo com que este seja o primeiro verdadeiro
-                gerador na Internet. Usa um dicionário de 200 palavras em Latim, combinado com 
-                uma dúzia de modelos de frases, para gerar Lorem Ipsum que pareçam razoáveis. 
-                Desta forma, o Lorem Ipsum gerado é sempre livre de repetição...
-                <a href="#" class="btn-continue">Continue lendo<img src="/assets/seta-direita.svg" class="seta-direita" alt="Seta sentido direita"></a></p>
-
+                <a href="/articles/1-PrimeiraPostagem.html"><h2>Minha Primeira Postagem.</h2></a>
+                <span class="data-post">Postado em <a href="/articles/1-PrimeiraPostagem.html">5 de Novembro de 2019.</a></span>
+                <p>
+                Como esse é o primeiro post do blog, o objetivo desse 
+                post é falar sobre a finalidade do blog e também de vocês me conhecerem melhor.
+                Primeiramente eu não sou muito bom com o português na escola era a matéria que eu 
+                menos gostava, mas não é por isso que eu vou deixar de escrever esse texto álias
+                uns dos motivos de eu criar este blog entre outros que eu ainda vou citar aqui é 
+                de eu melhorar a minha escrita...
+                </p>
+                <a href="/articles/1-PrimeiraPostagem.html" class="btn-leia">Leia Mais<img src="/assets/seta-direita.svg" alt="Seta para direita" class="seta-direita"></a>
             </div>
         </article>
+        <article>
+            <div class="artigo">
+                <a href="/articles/1-PrimeiraPostagem.html"><h2>Minha Primeira Postagem.</h2></a>
+                <span class="data-post">Postado em <a href="/articles/1-PrimeiraPostagem.html">5 de Novembro de 2019.</a></span>
+                <p>
+                Como esse é o primeiro post do blog, o objetivo desse 
+                post é falar sobre a finalidade do blog e também de vocês me conhecerem melhor.
+                Primeiramente eu não sou muito bom com o português na escola era a matéria que eu 
+                menos gostava, mas não é por isso que eu vou deixar de escrever esse texto álias
+                uns dos motivos de eu criar este blog entre outros que eu ainda vou citar aqui é 
+                de eu melhorar a minha escrita...
+                </p>
+                <a href="/articles/1-PrimeiraPostagem.html" class="btn-leia">Leia Mais<img src="/assets/seta-direita.svg" alt="Seta para direita" class="seta-direita"></a>
+            </div>
+        </article>
+
     </section>
+
+    <!-- ========== Footer ========== -->
+
     <footer class="footer">
-        <div class="container-footer">
+        <div class="footer-container">
             <div class="footer-item  item-1">
                 <a href="sobre.html"><img src="/assets/eu/eu80x80.png" alt="Foto de Jony"></a>
                 <p>Atualmente sou Graduando em Análise e Desenvolvimento 
                 de Sistemas na Católica de Santa Catarina, e inciando 
-                como Desenvolvedor Front-End. Conheça mais <a href="sobre.html">sobre mim</a>.</p>
+                como Desenvolvedor Web. Conheça mais <a href="sobre.html">sobre mim</a>.</p>
             </div>
 
             <div class="footer-item item-2">

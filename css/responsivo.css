@@ -1,0 +1,94 @@
+/* ==== Media Queries ==== */
+
+
+
+
+
+/* ==== Smartphone ==== */
+@media (max-width: 300px) {
+
+
+    /* ==== Index ==== */
+    .menu-container {
+        display: flex;
+        flex-direction: column;        
+    }
+
+    .menu-nav a {
+        font-size: 12px;
+        padding: 15px;
+    }
+
+	.intro h1 {
+		font-size: 28px;
+	}
+
+	.intro p {
+		font-size: 12px;
+    }
+
+    .artigo {
+        margin: 40px 10px;
+    }
+    
+    .artigo h2 {
+        font-size: 23px;
+    }
+
+    .artigo p {
+        font-size: 14px;
+    }
+
+    .data-post {
+        font-size: 11px;
+    }
+
+    .footer-container {
+        justify-content: center;
+    }
+
+    .item-2 {
+        margin-top: 40px;
+    }
+
+    /* ==== Sobre ==== */
+
+    #sobre {
+        padding: 0px;
+    }
+
+    .item-flex p {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .skill {
+        padding: 0px 10px;
+    }
+
+    .skill-container {
+        padding-top: 10px;
+    }
+
+    .item-skill {
+        font-size: 14px;
+    }
+
+    .item-skill h3 {
+        font-size: 18px;
+    }
+
+    /* ==== Artigo ==== */
+
+    #titulo-post {
+        font-size: 23px;
+    }
+
+    .artigo-page {
+        margin: 120px 10px 40px 10px;
+    }
+
+    .artigo-page p {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,21 @@
+/* ========== CSS Sobre ========== */
+
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#titulo-post {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.artigo-page {
+    margin: 120px auto;
+    max-width: 820px;
+}
+
+.artigo-page p {
+    margin: 20px 0;
+}

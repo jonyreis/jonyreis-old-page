@@ -34,3 +34,8 @@
 * Aprendi como publicar no GitHub Pages.
 * Adicionei recuo nos parágrafos.
 * Só falta deixar o site responsivo.
+
+
+### Dia 05/11/2019
+
+* Está responsivo para smartphone
