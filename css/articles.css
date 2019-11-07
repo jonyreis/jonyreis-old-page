@@ -19,3 +19,17 @@
 .artigo-page p {
     margin: 20px 0;
 }
+
+.artigo-page li {
+    margin: 30px;
+}
+
+.artigo-page li:before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #FF6615;
+    margin: 0 10px 3px 0;
+}
