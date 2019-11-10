@@ -84,6 +84,10 @@ img {
 	padding-top: 40px;
 }
 
+.seta img:hover {
+	cursor: pointer;
+}
+
 /* ==== Artigos ==== */
 
 .artigo {
