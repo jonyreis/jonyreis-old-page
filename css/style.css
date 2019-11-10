@@ -1,4 +1,4 @@
-/* Estilos Gerais */
+/* ==== Estilos Gerais ==== */
 
 body {
 	font-family: 'Raleway', sans-serif;
@@ -17,6 +17,10 @@ p {
 
 img {
 	max-width: 100%;
+}
+
+.link {
+	color: #FF6615;
 }
 
 /* ==== Menu de Navegação ==== */
@@ -41,6 +45,7 @@ img {
 
 .menu-nav a {
 	color: #fff;
+	cursor: pointer;
 	display: block;
 	font-size: 14px;
 	font-weight: 600;
