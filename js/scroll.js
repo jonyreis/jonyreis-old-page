@@ -1,4 +1,4 @@
-// FUNÇÃO PARA ROLAGEM DE SCROLL
+// SCROLLING
 
 
 const go = (e) => {
