@@ -9,13 +9,13 @@
     justify-content: center;
     max-width: 960px;
     margin: 0 auto;
-    padding: 20px 0 90px 0;
+    padding: 20px 0 100px 0;
 }
 
 h2 {
     font-size: 32px;
     font-weight: bold;
-    padding: 50px 0;
+    margin: 50px 0;
     text-align: center;
 }
 
@@ -95,12 +95,12 @@ h2::after {
 }
 
 .page {
-    /* background: rgba(255, 103, 21, 0.800); */
-    border: 3px solid #ff6615;
+    border: 1px solid #ff6615;
 }
 
 .page img {
     cursor: pointer;
+    /* margin: 0 2px; */
 }
 
 .page h3 {

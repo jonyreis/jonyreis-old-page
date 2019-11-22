@@ -164,7 +164,7 @@ img {
 .footer {
 	width: 100%;
 	background: #141414;
-	padding: 16px 0;
+	padding: 8px 0;
 }
 
 .footer-contact {
@@ -174,11 +174,13 @@ img {
 
 .footer-contact ul {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
 .footer-contact ul li {
 	display: flex;
+	padding: 8px 0;
 }
 
 .footer-contact p {
