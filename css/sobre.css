@@ -99,7 +99,7 @@ h2::after {
 
 .page img {
     cursor: pointer;
-    padding: 0px;
+    padding-left: 1px;
 }
 
 .page h3 {
