@@ -21,29 +21,31 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsivo.css">
-    <script src="/js/scroll.js"></script>
 </head>
 <body>
 
-    <!-- ========== Menu de Navegação ========== -->
+    <!-- ========== Menu ========== -->
 
     <header class="menu">
-        <div class="menu-container">
-            <a href="index.html" class="menu-logo"><img src="assets/JonyReis.svg" alt="Jony Reis"></a>
-            <nav class="menu-nav">
-                <ul>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a onclick="go('#artigos')">Artigos</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="menu-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a onclick="go('#artigos')">Artigos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="sobre.html#portfolio">Portfólio</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- ========== Intro ========== -->
 
     <main class="intro">
-            <h1>Desenvolvedor Web</h1>
-            <p>“escrevo sobre a minha experiência e dicas com desenvolvimento web”</p>
+            <img src="assets/eu/jony-intro.png" alt="Foto do Jony" srcset=""class="foto-intro" >
+            <h1>Jony Reis</h1>
+            <h3>Graduando em Análise e Desenvolvimento de Sistemas na Católica 
+            de Santa Catarina e inciando como Desenvolvedor Web.
+            </h3>
+            <a href="sobre.html">Saiba mais</a>
             <div class="seta">
                 <img src="assets/seta.svg" alt="Seta indicando para baixo" onclick="go('#artigos')">
             </div>
@@ -87,32 +89,27 @@
     <!-- ========== Footer ========== -->
 
     <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-item  item-1">
-                <a href="sobre.html"><img src="/assets/eu/eu80x80.png" alt="Foto de Jony"></a>
-                <p>Atualmente sou Graduando em Análise e Desenvolvimento 
-                de Sistemas na Católica de Santa Catarina, e inciando 
-                como Desenvolvedor Web. Conheça mais <a href="sobre.html">sobre mim</a>.</p>
-            </div>
 
-            <div class="footer-item item-2">
-                <ul>
-                    <li>
-                        <img src="/assets/redes-sociais/linkedin-branco.svg" alt="Ícone do LinkedIn">
-                        <p>Veja o meu perfil no <a href="https://www.linkedin.com/in/jonyreis/" target="_blank">LinkedIn</a></p>
-                    </li>
-                    <li>
-                        <img src="/assets/redes-sociais/github-branco.svg" alt="Ícone do GitHub">
-                        <p>Veja meus repositórios no <a href="http://www.github.com/jonyreis" target="_blank">GitHub</a></p>
-                    </li>
-                    <li>
-                        <img src="/assets/redes-sociais/email-branco.svg" alt="Ícone do E-mail">
-                        <p><span>email:</span> jonyreiscardoso@gmail.com</p>
-                    </li>
-                </ul>
-            </div>
+        <div class="footer-contact">
+            <ul>
+                <li>
+                    <img src="/assets/redes-sociais/linkedin-branco.svg" alt="Ícone do LinkedIn">
+                    <p>Veja o meu perfil no <a href="https://www.linkedin.com/in/jonyreis/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+                </li>
+                <li>
+                    <img src="/assets/redes-sociais/github-branco.svg" alt="Ícone do GitHub">
+                    <p>Veja meus repositórios no <a href="http://www.github.com/jonyreis" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+                </li>
+                <li>
+                    <img src="/assets/redes-sociais/email-branco.svg" alt="Ícone do E-mail">
+                    <p><span>email:</span> jonyreiscardoso@gmail.com</p>
+                </li>
+            </ul>
         </div>
+
     </footer>
+
+    <script src="js/scroll.js"></script>
     
 </body>
 </html>

@@ -18,45 +18,52 @@
     <link rel="icon" type="imagem/png" href="assets/icon.png"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/sobre.css">
-	<link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="css/responsivo.css">
     
 </head>
 <body>
 
-    <!-- ========== Menu de Navegação ========== -->
+    <!-- ========== Menu ========== -->
+
 
     <header class="menu">
-        <div class="menu-container">
-            <a href="index.html" class="menu-logo"><img src="assets/JonyReis.svg" alt="Jony Reis"></a>
-            <nav class="menu-nav">
-                <ul>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="./#artigos">Artigos</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="menu-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./#artigos" >Artigos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a onclick="go('#portfolio')">Portfólio</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- ========== Sobre ========== -->
 
     <main>
+
+        <h2>Sobre</h2>
+
         <div id="sobre">
+
             <div class="item-flex">
+
                 <div>
-                    <img src="/assets/eu/eu250x250.png" alt="Foto do Jony">
+                    <img src="/assets/eu/jony-sobre.png" alt="Foto do Jony" class="foto-sobre">
                 </div>
             </div>
             <div class="item-flex">
                 <p>Olá, eu sou o Jony estou iniciando a minha graduação em Análise e Desenvolvimento de Sistemas 
-                na Católica de Santa Catarina - Centro Universitáio, e aprendendo sobre desenvolvimento web focando 
-                mais no Front-End. Atualmente, as minhas principais fontes de estudos são os cursos da <a href="http://www.origamid.com" target="_blank" rel="noopener noreferrer" class="link">Origamid</a> e o Bootcamp da
-                <a href="http://rocketseat.com.br/launchbase" target="_blank" rel="noopener noreferrer" class="link">Rocketseat</a>, na qual 
-                estou aprendedo muito sobre Web Design  e tecnologias usadas no Front-End e Back-End, sempre quando posso compareço nos 
-                meetup  relacionados a Desenvolvimento Web que acontecem na cidade de Florianópolis para ficar por dentro do que está 
-                rolando na comunidade e fazer networking.</p>
+                na Católica de Santa Catarina - Centro Universitáio e aprendendo sobre desenvolvimento web focando 
+                mais no Front-End. Atualmente, as minhas principais fontes de estudos são os cursos da <a href="http://www.origamid.com" target="_blank" rel="noopener noreferrer" class="link">Origamid</a> 
+                e o Bootcamp LaunchBase da <a href="http://rocketseat.com.br/launchbase" target="_blank" rel="noopener noreferrer" class="link">Rocketseat</a>, 
+                na qual estou aprendedo muito sobre Web Design  e tecnologias usadas no Front-End e Back-End. Sempre quando posso compareço nos 
+                meetup  relacionados a Desenvolvimento Web que acontecem em Florianópolis para ficar por dentro do que está 
+                rolando na comunidade e fazer networking.
+                </p>
             </div>
         </div>
     </main>
@@ -102,6 +109,10 @@
                     </div>
                     <div class="check">
                         <img src="/assets/chek.svg" alt="Check">
+                        <li>Node JS</li>
+                    </div>
+                    <div class="check">
+                        <img src="/assets/chek.svg" alt="Check">
                         <li>Web Design</li>
                     </div>
                 </ul>
@@ -109,33 +120,136 @@
         </div>
     </section>
 
+    <!-- ======== Portfolio ========= -->
+
+    <section class="portfolio" id="portfolio">
+
+        <h2>Portfólio</h2>
+
+        <div class="portfolio-item">
+
+            <div class="page">
+
+                <div class="classImg" id="desafio-linx">
+                    <img src="assets/portfolio/desafio-linx.png" alt="Foto da Landing Page do Desafio da Linx">
+                </div>
+
+                <h3>Landing Page Lojas Marisa</h3>
+                <p>descrição</p>
+
+                <div class="link-projeto">
+                    <a href="https://jonyreis.github.io/desafio-linx/" target="_blank" rel="noopener noreferrer">Visualizar o Projeto</a>
+                </div>
+                <div class="link-github">
+                    <a href="https://github.com/jonyreis/desafio-linx" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+
+            </div>
+
+            <div class="page">
+
+                <div class="classImg" id="foodfy">
+                    <img src="assets/portfolio/foodfy.png" alt="Foto da Page do Foodfy">
+                </div>
+
+                <h3>Foodfy</h3>
+                <p>descrição</p>
+
+                <div class="link-projeto">
+                    <a href="https://jonyreis.github.io/foodfy-desafio-launchBase/" target="_blank" rel="noopener noreferrer">Visualizar o Projeto</a>
+                </div>
+                <div class="link-github">
+                    <a href="https://github.com/jonyreis/foodfy-desafio-launchBase" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+
+            </div>
+
+            <div class="page" >
+
+                <div class="classImg" id="bikcraft">
+                    <img src="assets/portfolio/bikcraft.png" alt="Foto da Page Bikcraft">
+                </div>
+
+                <h3>Bikcraft</h3>
+                <p>descrição</p>
+
+                <div class="link-projeto">
+                    <a href="https://jonyreis.github.io/bikcraft" target="_blank" rel="noopener noreferrer">Visualizar o Projeto</a>
+                </div>
+                <div class="link-github">
+                    <a href="https://github.com/jonyreis/bikcraft" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+
+            </div>
+
+            <div class="page" >
+
+                <div class="classImg" id="spotify">
+                    <img src="assets/portfolio/spotify.png" alt="Foto da Page do Spotfy">
+                </div>
+
+                <h3>Spotfy Simplificado</h3>                    
+                <p>descrição</p>
+
+                <div class="link-projeto">
+                    <a href="https://jonyreis.github.io/spotify-simplificado" target="_blank" rel="noopener noreferrer">Visualizar o Projeto</a>
+                </div>
+                <div class="link-github">
+                    <a href="https://github.com/jonyreis/spotify-simplificado" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+
+            </div>
+    
+        </div>
+
+    </section>
+
+    <!-- ========= Modal Overlay ========= -->
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <a class="modal-close">
+                <i class="material-icons">close</i>
+            </a>
+
+            <div class="modal-content">
+                <div class="modal-content-img">
+                    <img src="" alt="" srcset="">
+                </div>
+                <!-- <div class="modal-content-description">
+                    <h3></h3>
+                    <p></p>
+                </div> -->
+
+            </div>
+        </div>
+    </div>
+
     <!-- ========== Footer ========== -->
 
     <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-item  item-1">
-                <a href="sobre.html"><img src="/assets/eu/eu80x80.png" alt="Foto de Jony"></a>
-                <p>Atualmente sou Graduando em Análise e Desenvolvimento 
-                de Sistemas na Católica de Santa Catarina, e inciando 
-                como Desenvolvedor Web. Conheça mais <a href="sobre.html">sobre mim</a>.</p>
-            </div>
 
-            <div class="footer-item item-2">
-                <ul>
-                    <li>
-                        <img src="/assets/redes-sociais/linkedin-branco.svg" alt="Ícone do LinkedIn">
-                        <p>Veja o meu perfil no <a href="https://www.linkedin.com/in/jonyreis/" target="_blank">LinkedIn</a></p>
-                    </li>
-                    <li>
-                        <img src="/assets/redes-sociais/github-branco.svg" alt="Ícone do GitHub">
-                        <p>Veja meus repositórios no <a href="http://www.github.com/jonyreis" target="_blank">GitHub</a></p>
-                    </li>
-                    <li>
-                        <img src="/assets/redes-sociais/email-branco.svg" alt="Ícone do E-mail">
-                        <p><span>email:</span> jonyreiscardoso@gmail.com</p>
-                    </li>
-                </ul>
-            </div>
+        <div class="footer-contact">
+            <ul>
+                <li>
+                    <img src="/assets/redes-sociais/linkedin-branco.svg" alt="Ícone do LinkedIn">
+                    <p>Veja o meu perfil no <a href="https://www.linkedin.com/in/jonyreis/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+                </li>
+                <li>
+                    <img src="/assets/redes-sociais/github-branco.svg" alt="Ícone do GitHub">
+                    <p>Veja meus repositórios no <a href="http://www.github.com/jonyreis" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+                </li>
+                <li>
+                    <img src="/assets/redes-sociais/email-branco.svg" alt="Ícone do E-mail">
+                    <p><span>email:</span> jonyreiscardoso@gmail.com</p>
+                </li>
+            </ul>
         </div>
+
     </footer>
+
+    <script src="js/scroll.js"></script>
+    <script src="js/modal.js"></script>
+
 </body>
+</html>
