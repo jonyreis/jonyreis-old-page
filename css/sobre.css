@@ -9,7 +9,7 @@
     justify-content: center;
     max-width: 960px;
     margin: 0 auto;
-    padding: 20px 0 70px 0;
+    padding: 20px 0 90px 0;
 }
 
 h2 {
@@ -96,7 +96,7 @@ h2::after {
 
 .page {
     /* background: rgba(255, 103, 21, 0.800); */
-    border: 2px solid #ff6615;
+    border: 3px solid #ff6615;
 }
 
 .page img {
@@ -136,6 +136,7 @@ h2::after {
     background:var(--color-orange);
     padding: 8px 0;
     text-align: center;
+    margin-bottom: -2px;
 }
 
 .link-github a {
