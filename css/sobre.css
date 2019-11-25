@@ -2,10 +2,14 @@
 
 /* ==== Sobre ==== */
 
+main {
+    /* background: rgb(250, 250, 250); */
+}
+
 h2 {
     font-size: 32px;
     font-weight: bold;
-    margin: 50px 0;
+    padding: 50px 0;
     text-align: center;
 }
 
@@ -33,9 +37,9 @@ h2::after {
     margin: 0 40px;
 }
 
-.foto-sobre {
-	border: 3px solid var(--color-orange);
-	border-radius: 50%;
+.item-flex img {
+    border: 3px solid var(--color-orange);
+    border-radius: 50%;
 }
 
 .link {
@@ -99,12 +103,10 @@ h2::after {
 
 .page img {
     cursor: pointer;
-    padding-left: 1px;
 }
 
 .page h3 {
     color: #222;
-    /* cursor: pointer; */
     font-size: 18px;
     font-weight: 600;
     text-align: center;

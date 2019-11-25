@@ -69,6 +69,8 @@ img {
 .foto-intro {
 	border: 3px solid var(--color-orange);
 	border-radius: 50%;
+    background: #fafafa;
+	max-width: 190px;
 }
 
 .intro h1 {
