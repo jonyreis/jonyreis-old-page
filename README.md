@@ -39,3 +39,13 @@
 ### Dia 05/11/2019
 
 * Está responsivo para smartphone
+
+
+### Dia 06/11/2019
+
+* Concluído
+
+### Dia 22/11/2019
+
+* Layout da home atualizada, adicionei uma foto minha.
+* Adicionei um portfólio.
